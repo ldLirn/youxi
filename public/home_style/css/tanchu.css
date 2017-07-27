@@ -1,0 +1,381 @@
+
+
+
+label, input {
+    font-family: Tahoma;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+
+.wp {
+    margin: auto;
+    width: 1000px;
+}
+
+
+.header_v2 {
+    width: 100%;
+}
+
+
+.loading_bg{ width:960px; height:100px; background:url(../images/shop/loadding.gif) no-repeat 50% 50%;}
+
+.game_select_arrow, .gs_f_search .gs_f_search_btn, .gs_list li, .gs_head .close_btn, .gs_f_search .gs_back_btn{ background:url(../images/shop/tanchu.jpg) no-repeat;}
+
+.gs_box {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    color: #333333;
+    display: none;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 1.5;
+    position: absolute;
+    top: 102px;
+    width: 1000px;
+    z-index:999;
+    left:0px;
+}
+.gs_box_inner {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #3983E8;
+    padding: 0 0 15px;
+    position: relative;
+    width: 996px;
+    z-index:999;
+}
+.game_select_arrow {
+	background-position: -8px -10px;
+	background-repeat: no-repeat;
+	bottom: 231px;
+	display:inline;
+	height: 8px;
+	overflow: hidden;
+	position: absolute;
+	width: 12px;
+	top:96px;
+	z-index: 1000;
+/*	margin-left:332px;*/
+}
+.gs_box .hide {
+    display: none;
+}
+.gs_head {
+    border-bottom: 1px solid #EEEEEE;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 15px;
+}
+.gs_head dl {
+    float: left;
+    height: 36px;
+    overflow: hidden;
+}
+.gs_head dt {
+    float: left;
+    padding-right: 10px;
+}
+.gs_head dd {
+    float: left;
+    padding-right: 40px;
+}
+.gs_head .GameHistory {
+    white-space:nowrap; 
+    margin-left:10px;
+    display:inline-block;
+    width:120px;
+    overflow:hidden;
+}
+.gs_head .gs_add_name {
+    color: #666666;
+    float: right;
+    text-decoration: underline;
+}
+.gs_head .gs_add_name:hover {
+    color: #FF6600;
+}
+.gs_head .close_btn {
+    background-position: -5px -34px;
+    float: right;
+    height: 19px;
+    line-height: 19px;
+    margin: 8px 0 -8px 10px;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 19px;
+}
+.gs_head .close_btn:hover {
+    background-position: -5px -34px;
+}
+.gs_f_search {
+    height: 28px;
+    overflow: hidden;
+    padding: 15px;
+	width:900px;
+}
+.gs_f_search input {
+    float: left;
+}
+.gs_f_search .gs_f_search_box {
+    background-position: 0 -60px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 1px 2px 3px #DDDDDD inset;
+    color: #333333;
+    height: 22px;
+    margin-right: 5px;
+    padding: 2px 3px;
+    width: 190px;
+}
+.gs_f_search .gs_f_search_box_default {
+    color: #999999;
+}
+.gs_f_search .gs_f_search_btn {
+    background-position: 0 -81px;
+    border: 0 none;
+    color: #FFFFFF;
+    float: left;
+    height: 28px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: -1px;
+    width: 68px;
+}
+.gs_f_search .gs_f_search_btn:hover {
+    background-position: 0 -81px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.gs_f_search .gs_back_btn {
+    background-position: 0 -117px;
+    color: #FFFFFF;
+    display: none;
+    float: left;
+    height: 29px;
+    line-height: 29px;
+    margin-right: 10px;
+    text-align: left;
+    text-indent: 18px;
+    width: 52px;
+}
+.gs_f_search .gs_back_btn:hover {
+    background-position: 0 -152px;
+    text-decoration: none;
+}
+.gs_result_f_search .gs_back_btn {
+    display: block;
+}
+.gs_result_f_search .gs_f_search_btn {
+    background-position: 0 -580px;
+    color: #666666;
+}
+.gs_result_f_search .gs_f_search_btn:hover {
+    background-position: 0 -610px;
+    color: #666666;
+}
+.gs_nav {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    width: auto;
+	background:url(../images/shop/tanchu_header.jpg) repeat-x;
+	
+}
+.gs_nav:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.gs_nav li {
+    background-position: 100% -207px;
+    float: left;
+    font-size: 14px;
+}
+.gs_nav .first_line, .gs_nav .last_line {
+    background: none repeat scroll 0 0 #D1E3FE;
+    display: none;
+    float: left;
+    height: 25px;
+    overflow: hidden;
+    width: 1px;
+}
+.gs_nav .last_line {
+    float: right;
+}
+.gs_nav a {
+    color: #999999;
+    display: block;
+    outline: medium none;
+    text-align: center;
+    width: 29px;
+}
+.gs_nav .w_70 a {
+    width: 70px;
+}
+.gs_nav .name a {
+    width: 70px;
+}
+.gs_nav a:hover, .gs_nav .current {
+    border-bottom: 2px solid #ff6600;
+    color: #ff6600;
+    font-weight: 700;
+    height: 38px;
+    position: relative;
+    text-decoration: none;
+}
+.gs_list {
+    overflow: hidden;
+    padding: 10px 20px 0;
+    width: 958px;
+	z-index:999;
+}
+.gs_list_padding {
+    padding-left: 85px;
+}
+.gs_list li {
+    background-position: -62px -30px;
+    background-repeat: no-repeat;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    padding: 5px 0 5px 3px;
+    width: 152px;
+}
+.gs_list a {
+    background-color: #FFFFFF;
+    color: #333333;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 0 5px;
+}
+.gs_list a.hot {
+    color: #FF4E00;
+}
+.gs_list a:hover {
+    background: none repeat scroll 0 0 #ff6600;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a.gs_red{color: #ff6600;}
+a.gs_red:hover{
+    background: none repeat scroll 0 0 #ff6600;
+    color: #FFFFFF;
+}
+.gs_list .gs_tip {
+    background: none repeat scroll 0 center transparent;
+    color: #999999;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding: 20px 0 10px;
+    width: 700px;
+}
+.gs_list .gs_tip img {
+    float: left;
+    margin-right: 5px;
+}
+.gs_list .gs_search_result {
+    background: none repeat scroll 0 center transparent;
+    float: none;
+    font-size: 14px;
+    font-weight: bolder;
+    height: 32px;
+    line-height: 32px;
+    width: 700px;
+}
+.gs_list .gs_none_result {
+    background: none repeat scroll 0 center transparent;
+    color: #999999;
+    float: none;
+    padding: 0 0 0 3px;
+    width: 700px;
+}
+.gs_list .gs_add_name {
+    background: none repeat scroll 0 center transparent;
+    color: #666666;
+    float: none;
+    margin-top: 5px;
+    padding: 0 0 0 3px;
+    width: 700px;
+}
+.gs_list .gs_add_name a {
+    color: #0066CC;
+    display: inline;
+    height: auto;
+    padding: 0;
+    text-decoration: underline;
+}
+.gs_list .gs_add_name a:hover {
+    background: none repeat scroll 0 0 transparent;
+    color: #FF6600;
+    text-decoration: underline;
+}
+.gs_list .gs_nofind {
+    background: none repeat scroll 0 center transparent;
+    clear: both;
+    float: none;
+    height: 40px;
+    padding: 15px 0 0;
+    width: auto;
+}
+.gs_list .gs_nofind span {
+    border-top: 1px solid #E8E8E8;
+    display: block;
+    height: 40px;
+    line-height: 50px;
+    overflow: hidden;
+}
+.gs_list .gs_nofind a {
+    color: #0066CC;
+    display: inline;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: underline;
+}
+.gs_list .gs_nofind a:hover {
+    background: none repeat scroll 0 0 transparent;
+    color: #FF6600;
+}
+.gs_list .gs_result_ico {
+    background: none repeat scroll 0 0 transparent;
+    height: 52px;
+    left: 22px;
+    position: absolute;
+    top: 20px;
+    width: 48px;
+}
+.gs_list .f_f60 {
+    color: #FF6600;
+}
+
+
+/*nofind*/
+.feedtitle{ margin:20px 0px 15px 0px;}
+.wrapper{ width:958px; height:100%; overflow:hidden; border:1px solid #dedede;}
+.wrapper .catagame{ width:900px; height:45px; line-height:43px; padding-left:58px; border-bottom:1px dotted #ececec;}
+.wrapper input, .wrapper label{ line-height:30px;}
+.wrapper label{ margin-right:25px;}
+.wrapper .feedForm{ width:958px; margin:20px 0px 0px 35px;}
+.wrapper .feedForm ul{ width:958px; height:100%; overflow:hidden;}
+.wrapper .feedForm ul li{ width:958px; height:35px; margin-bottom:15px;}
+.wrapper .feedForm .txtname{ line-height:22px;}
+.wrapper .feedForm .txtinput{ width:280px; height:25px; line-height:25px; border:1px solid #cccccc;}
+.wrapper .feedForm .yzm{ width:60px; height:25px; line-height:22px; border:1px solid #cccccc;}
+.wrapper .feedForm a.Btn{ width:140px; height:32px; display:block; background-color:#4b8af6; border:1px solid #3279f0; line-height:32px; text-align:center; color:#fff; margin-left:58px;}
+.wrapper .feedForm a.Btn:hover{ background-color:#2c74ec; border:1px solid #3366cc; text-decoration:none;}
+
+.sstab_conbox{background-color:#fff;}
+.sstab_con{ display:none;}
+.sstabs{height: 32px;border-bottom:1px solid #F60;width: 100%;}
+.sstabs li{margin-left:20px;margin-bottom: -1px; height:31px;line-height:31px; font-size:14px;  float:left;border:1px solid #f60;background:#ffede1;overflow: hidden;position: relative;}
+.sstabs li a {text-decoration:none;color:#535353;display: block;padding: 0 20px;outline: none;}
+.sstabs li a:hover {background: #fff;}	
+.sstabs .current,.tabs .current a:hover{font-weight:bold;background: #fff;border-bottom: 1px solid #fff;}
+
+.nfqf{color:#999;line-height:25px;margin-left:10px;}

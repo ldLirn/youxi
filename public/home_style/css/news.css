@@ -1,0 +1,79 @@
+@charset "utf-8";
+*{ margin:0; padding:0;}
+.em{ font-style:normal;}
+input{ outline:none;}
+body{ font-size:12px; font-family: Arial,simsun,sans-serif,"Microsoft YaHei",Mingliu,Verdana,Helvetica,Lucida;}
+header, section, footer, aside{ display:block;}
+.left{ float:left;}
+.right{ float:right;}
+img{ border:0px;}
+a{ text-decoration:none;}
+li{ list-style:none; float:left;}
+.clear{ clear:both;}
+.w_960 { width:960px; margin:0 auto;}
+
+
+
+.wrap{ width:960px; margin:30px auto; height:auto; overflow:hidden;}
+.sidebar{ width:201px;}
+.sidebar ul{ width:201px;}
+.sidebar ul li{ line-height:44px;}
+.sidebar ul li.img a{ width:201px; height:71px;}
+.sidebar ul li a{ width:201px; height:46px; display:block; cursor:pointer; background:url(http://cdnimg.dd373.com/file/general/images/gg-icon.gif) no-repeat; font-size:14px; color:#9b9b9b; text-align:center; margin-bottom:10px;}
+.sidebar ul li a:hover{ font-weight:bold; color:#fff; text-decoration:none;}
+.sidebar ul li.current a{}
+
+
+
+.sidebar ul li a.benzhan{background-position:0px 0px; color:#9b9b9b; }
+.sidebar ul li a.benzhan:hover{ background-position:0px -213px; font-weight:bold; color:#fff;}
+.sidebar ul li.current a.benzhan{ background-position:0px -213px; font-weight:bold; color:#fff;}
+
+.sidebar ul li a.zuixin{ background-position:0px -51px;}
+.sidebar ul li a.zuixin:hover{ background-position:0px -265px;}
+.sidebar ul li.current a.zuixin{ background-position:0px -265px;font-weight:bold; color:#fff;}
+
+.sidebar ul li a.guanfang{ background-position:0px -107px;}
+.sidebar ul li a.guanfang:hover{ background-position:0px -319px;}
+.sidebar ul li.current a.guanfang{ background-position:0px -319px;font-weight:bold; color:#fff;}
+
+.sidebar ul li a.dianka{ background-position:0px -161px;}
+.sidebar ul li a.dianka:hover{ background-position:0px -372px; color:#fff;}
+.sidebar ul li.current a.dianka{ background-position:0px -372px; font-weight:bold; color:#fff;}
+
+.connect{ width:745px; height:auto; float:left; margin-left:10px; border:1px solid #ecebeb;}
+.connect .title{ width:745px; height:30px; background-color:#f7f7f7; font-size:14px; text-indent:1em; color:#333; line-height:28px; font-weight:bold;}
+.connect .connect-ner{ width:745px;}
+.connect .connect-ner ul.list{ width:745px;}
+.connect .connect-ner ul.list li{ width:745px; height:40px; border-bottom:1px dotted #e9e8e8; line-height:38px; }
+.connect .connect-ner ul.list li a{ font-size:14px;  margin:0px 0px 0px 15px; font-size:12px;}
+.connect .connect-ner ul.list li a:hover{ text-decoration:underline; color:#ff6600;} 
+.connect .connect-ner .date{ float:right; margin-right:10px;}
+.connect .connect-ner ul.list li.yema{ width:745px; margin:10px 0px 0px 200px; text-align:center;}
+.connect .connect-ner ul.list li.yema dd{ text-align:center; line-height:25px; float:left; margin-right:8px;}
+.connect .connect-ner ul.list li.yema dd a{ width:26px; height:25px; display:block; background:url(http://cdnimg.dd373.com/file/general/images/yema.jpg) no-repeat; text-decoration:none;}
+.connect .connect-ner ul.list li.yema dd a:hover{ background-image:none; background-color:#636363; color:#fff;}
+
+.connect .connect-ner .text{ width:660px; margin:0 auto;}
+	
+/*------------------------------------newsDetail------------------------------------------*/
+
+.connect .con_title{ width:740px; height:70px; text-align:center; border-bottom:1px dotted #dddddd;}
+.connect .con_title h1{ font-size:18px; color:#333; font-weight:bold;  margin-top:15px;}
+.connect .con_title span{ display:block; margin-top:20px; color:#999999;  }
+.connect .text p{ text-indent:2em; line-height:52px; font-size:14px;}
+.connect .text p a.alink{font-size:14px; font-weight:bold; text-decoration:underline;}
+.connect .text p.align_right{ text-align:right;}
+.connect .text p a.return{ width:79px; height:20px; text-indent:0em; margin-bottom:10px; line-height:20px; font-size:12px; text-align:center; display:block; background:url(http://cdnimg.dd373.com/file/general/images/sale_uploadbtn.jpg) no-repeat;}
+
+
+
+
+
+footer{width:100%; height:100px; border-top:1px solid #dddddd; margin:15px auto 0px auto;}
+.lianxi{ width:960px; text-align:center; padding-top:20px; margin:0 auto; }
+.lianxi p{ color:#999999; width:960px;}
+.lianxi p.icon{ margin-top:10px; margin-bottom:30px;}
+.lianxi p a{ color:#999999;}
+
+

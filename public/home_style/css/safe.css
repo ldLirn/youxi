@@ -1,0 +1,112 @@
+.center_nav_box{width:1220px;margin:0 auto;height: 165px;}
+.center_nav_box .center_nav_img{float: left}
+.center_nav_box .center_nav_list a{display: inline-block;width: 24%;  height:100%;  border-right:dashed 1px #eae8e8;margin-right: 0;text-align: center;color: #3a8dc3}
+.center_nav_box .center_nav_list a:hover{text-decoration: underline;color: #1a86dc;background-color: #eee}
+.center_nav_box .center_nav_list{width: 700px;float: right;line-height: 180px;margin-left: 0}
+.banner{width: 100%;}
+.banner .tu{ width:1000px; height:313px; margin:0 auto;}
+
+.main .nering .conmmonProblem{ width:960px; height:50px; line-height:50px; color:#333; border-bottom:1px dashed #dedede;}
+.main .nering .conmmonProblem p.ya{ font-size: 20px}
+.main .nering ul{ width:960px; height:200px;  margin:1px 0px 10px 0px;border-bottom:1px dashed #dedede; }
+.main .nering ul li{ width:270px; height:30px; color:#656565; margin-right:50px;float: left;overflow: hidden}
+.main .nering ul li dt{ color:#656565; font-size:22px; margin:15px 0px 15px 0px;}
+.main .nering ul li dd{  width:125px; float:left; height:35px;}
+.main .nering ul li dd a{ color:#9a9a9a;}
+.main .nering ul li a:hover{ color:#3a8dc3;}
+
+.left{float: left}
+.right{float: right}
+.right a:hover{color: #1a86dc}
+.yz{ width:1000px; height:70px; margin:0 auto;}
+.yz ul li{float: left}
+.yz ul li a{ width:240px; height:45px; display:block; background:url(../images/va_ico.png) no-repeat; }
+.yz ul li a.brank{ background-position:0px -137px;}
+.yz ul li a.ie{ background-position:0px -226px;}
+.yz ul li a.exmail{ background-position:0px -48px;}
+.yz ul li a.QQ{ background-position:0px -316px;}
+.yz ul li a:hover.brank{ background-position:0px -94px;}
+.yz ul li a:hover.ie{ background-position:0px -182px;}
+.yz ul li a:hover.exmail{ background-position:0px 1px;}
+.yz ul li a:hover.QQ{ background-position:-1px -269px;}
+
+.Help_nav .Help_nav_box{margin:0 auto}
+
+.main{height: 540px;margin-top: 20px;}
+ ul.helpList li.helpList_title{ width:740px; height:30px; line-height:30px; background-color:#F1F1F1;  background-image:none;}
+ul.helpList li.helpList_title  p.que_title{ padding-left:60px; width:370px; }
+ul.helpList li.helpList_title  p.onclick{ width:50px;  margin-left:50px;  margin-right:50px;}
+ul.helpList li.helpList_title  p.date{ width:150px; text-align:center; color:#333;}
+ul.helpList, .content ul.helpList li{ width:750px;}
+ul.helpList li{ height:40px; line-height:40px; list-style:none; text-indent:1em; border-bottom:1px dashed #cccccc;  }
+ul.helpList li p{  overflow:hidden;}
+ul.helpList li p.que_title{ width:430px;}
+ul.helpList li p.onclick{ width:160px; overflow:hidden; text-align:center;  margin-right:25px;}
+ul.helpList li p.date{ overflow:hidden; color:#979494;}
+ul.helpList li a{color:#0A5896;}
+
+.sidebox{ width:440px;margin-left: 10px;}
+.sidebox .yanzheng ul{ margin-left:8px;}
+.sidebox .yanzheng ul li{ float: left}
+.sidebox .yanzheng ul li a{ width:98px; height:98px; display:block; margin:0px 10px 10px 0px; background:url(../images/va_ico.png) no-repeat; background-color:#4da4e0; }
+.sidebox .yanzheng ul li a.text{ line-height:152px; text-align:center; color:#fff;}
+.sidebox .yanzheng ul li a.a1{ background-position:8px 0px;}
+.sidebox .yanzheng ul li a.a2{ background-position:8px -80px;}
+.sidebox .yanzheng ul li a.a3{ background-position:8px -160px;}
+.sidebox .yanzheng ul li a.a4{ background-position:8px -240px;}
+.sidebox .study{ width:100%;}
+.sidebox .study .title{  height:40px; margin:10px 0px 0px 8px;background-color:#fad7a5; color:#8c5505; text-indent:1em; line-height:40px;}
+.sidebox .study .nering{  height:220px; margin-left:8px; background-color:#fcecd4;overflow: hidden}
+.sidebox .study .nering ul{ padding:10px 0px 0px 8px;}
+.sidebox .study .nering ul li{  line-height:33px;float: none;}
+.sidebox .study .nering ul li a{ width:160px; overflow:hidden; display:block; height:33px; color:#333;}
+.sidebox .study .nering ul li a:hover{ color:#F63; text-decoration:underline;}
+
+.con-text{ width:746px; border: 2px solid #eee}
+.con-text p{ width:650px; line-height:30px; text-indent:2em;}
+.con-text p a.return{width:79px; height:20px; display: block; margin:10px 0px 10px 0px; text-indent:0; line-height: 20px; text-align: center;}
+.con-text p.title{ width:650px; line-height:30px; font-size:14px; text-align:center; margin:10px 0px 15px 0px;}
+
+
+.safeyz{ margin:20px auto 0px auto;}
+.safeyz-r ul{ width:695px; height:89px; margin-left:25px; position:relative;}
+.safeyz-r ul li{ text-align:center; font-size:14px;float: left}
+.safeyz-r ul li a{width:100px; height:88px; display:block; background:url(../images/vali_ico.png) no-repeat; border:1px solid #ffffff; border-bottom:none; background-color:#eee; color:#666; font-weight:bold;cursor: pointer}
+
+.safeyz-r ul li a.qq{ background-position:8px 24px; margin-right:30px;}
+.safeyz-r ul li a.hover{color:#f89201; font-weight:bold; border:1px solid #ffecd1; border-bottom-color:#fcf5eb;background-color: #ffecd1; margin-right:30px;}
+.safeyz-r ul li a.exmail{ background-position:6px -194px; margin-right:30px; }
+
+.safeyz-r ul li a.ie{ background-position:6px -42px; margin-right:30px; }
+
+.safeyz-r ul li a.brank{ background-position:6px -121px; margin-right:30px;}
+
+.safeyz-r .wz{ margin-top:65px; display:block;}
+.safeyz-r .qq-ner{ width:695px; height:330px; border:1px solid #ffecd1; background-color:#fcf5eb;}
+.safeyz-r .qq-ner .title{ width:695px; height:30px; background-color:#fcebd5; margin-top:25px;}
+.safeyz-r .qq-ner .title p{ line-height:28px; text-indent:2em;}
+.safeyz-r .qq-ner .title .jia{  background-color: #f89201;  color: #fff;display:inline-block;font-size: 12px;width: 100px; margin-left:116px;}
+.safeyz-r .qq-ner .kuang{ width:655px; margin:35px 0px 0px 40px;}
+.safeyz-r .qq-ner .kuang .hao{ margin-bottom:35px;}
+.safeyz-r .qq-ner .kuang a{ color:#49a2df; padding-left:8px; text-decoration:underline;}
+.safeyz-r .qq-ner .kuang .text-input{ width:230px; height:35px; border:1px solid #e5e5e5; background-color:#fff; text-indent:0.5em; }
+.safeyz-r .qq-ner .yz-btn input{ width:137px; height:36px; display:block; background-color:#f89201; color:#fff; text-align:center; line-height:30px; font-weight:bold; font-size:14px;}
+.safeyz-r .qq-ner .yz-btn{ width:600px; margin:35px 0px 0px 95px;}
+
+
+.safeyz-r .qq-ner .wrap{ width:655px; margin:35px 0px 0px 40px;}
+.safeyz-r .qq-ner .wrap .hao{ margin-bottom:35px;}
+.safeyz-r .qq-ner .wrap a{ color:#49a2df; padding-left:8px; text-decoration:underline;}
+.safeyz-r .qq-ner .wrap .text-input{ width:230px; height:35px; font-size:16px; background-color:#fff; text-indent:0.5em; border:1px solid #e5e5e5; }
+.safeyz-r .qq-ner  a.red_btn{ width:137px; height:36px; line-height:36px; margin:35px 0px 0px 95px; display:block;}
+.safeyz-r .qq-ner .tip{ margin:25px 0px 0px 95px;}
+.safeyz-l{ width:225px; margin-left:10px;}
+.safeyz-l .Anti-fraud{ width:225px; height:300px;}
+.safeyz-l .Anti-fraud .title{ width:225px; height:40px; background-color:#7fc3f1; color:#1267a1; font-weight:bold; line-height:38px; text-indent:1em; font-size:14px;}
+.safeyz-l .Anti-fraud .nering{ width:225px; height:380px; background-color:#e4f3fd;}
+.safeyz-l .Anti-fraud .nering ul{ width:225px;}
+.safeyz-l .Anti-fraud .nering ul li{ float:left; width:210px; line-height:35px; margin-left:15px;}
+.safeyz-l .Anti-fraud .nering ul li a{ color:#585d60;}
+.safeyz-l .Anti-fraud .nering ul li a:hover{ text-decoration:underline;}
+
+a.red_btn{ display:block; background-color:#7fc3f1; color:#fff; text-align:center;border-radius:6px;font-size:14px;padding:4px 0;cursor: pointer}

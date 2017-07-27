@@ -1,0 +1,158 @@
+.all{ width:960px; margin:0 auto;}
+
+
+.btn a{width:130px; height:35px; background-color:#f77e2e; display:block; color:#fff; font-family:"微软雅黑"; font-size:16px; line-height:30px; text-align:center;}
+
+.order-title, .more-order{ background-color:#fdfbf4; margin-top:2px; width:950px; padding-left:10px;}
+.order-title p{ line-height:50px; font-size:14px; font-weight:bold;}
+.order-title .bt{ color:#3f542a;}
+.order-title .order1{ width:950px; height:50px;}
+.order-title .order-text{ width:745px;}
+.order-title .jiage{ width:120px; line-height:40px;}
+.order-title .jiage .qian{font-family:"微软雅黑"; color:#ff6600; font-size:22px;}
+.more-order .biaoti{ padding-top:10px;}
+.more-order .order{ width:950px; height:40px; border-bottom:1px dashed #dddbd1; background-color:#fdfbf4; margin-top:10px;}
+.more-order .order p{ width:350px; height:35px;line-height:35px;overflow:hidden;}
+.more-order .order .smallp{ width:300px; line-height:35px;}
+.more-order .order .smallp1{ width:200px; line-height:35px;}
+.more-order .order .smallp1 span{ color:#ff6600;}
+.more-order .total{ width:950px; background-color:#fdfbf4; height:40px; }
+.more-order .total p{width:110px; height:40px; float:right; line-height:35px;}
+.more-order .total .qian{ font-size:18px; font-family:"微软雅黑"; color:#ff6600;}
+
+.order-nering{ width:960px;}
+.order-nering2{ width:960px;}
+.pay-message{ width:960px; }
+.order-nering2 .red-kuang{ width:930px; border:3px solid #ff6600; padding-left:24px}
+.order-nering .grey-kuang{ width:930px; border:3px solid #e6e8e9; padding-left:24px;}
+.pay-message .zhanghu{ width:900px; height:55px; border-bottom:1px dashed #dddddd; line-height:55px;}
+.pay-message .moneyquan{ height:45px;margin-top:15px;}
+.pay-message .quan{ height:45px;margin-top:15px;}
+.pay-message .diyongquan{ height:45px;margin-top:15px;}
+.pay-message .fuxuan{ padding:3px 5px 0px 0px;}
+.pay-message .moneyquan .diyongquan img{ padding:0px 5px 0px 5px; _padding:3px 5px 0px 5px;}
+.pay-message .text{ line-height:20px;}
+.pay-message p a{ color:#3485bc; text-decoration:underline; margin-left:55px;}
+.pay-message .yue{ height:45px; margin-top:15px;}
+
+.pay-style .bt{ font-size:22px; font-family:"微软雅黑"; text-align:center; margin:20px 0px 30px 0px;}
+.pay-style .wrap{ width:960px;  margin:0 auto;}
+.pay-style .wrap .title{ width:958px; height:37px; _height:35px; border:1px solid #dedede;  background-color:#f7f7f7;}
+.pay-style .wrap .title ul li{cursor:pointer; text-align:center; width:158px; height:36px; font-weight:bold; font-size:14px; line-height:36px; margin-left:10px; position:relative;float: left;}
+.pay-style .wrap .title .ahover{ background-color:#fffbec; border:2px solid #ff6600; text-decoration:none; box-shadow:4px 0 2px -2px rgba(0,0,0,0.2); border-bottom-color:#fef9f6;}
+.pay-style .wrap .title .ahover-blue{ background-color:#f5f7fc; border:2px solid #97adba; text-decoration:none; box-shadow:4px 0 2px -2px rgba(0,0,0,0.2); border-bottom-color:#f5f7fc;}
+
+/*cft*/
+.cft{ padding:0px 0px 15px 35px;}
+.cft .lheight{height:80px;line-height:80px;}
+.cft .cztips { font-size: 14px; height:30px; line-height:30px; padding:10px 0px 10px 0px;}
+.cft .label {font-size:14px; height:40px; line-height:30px; width: 100%;}
+.cft .cznum { border-bottom:1px dashed #cccccc; padding:20px 0px 20px 0px;}
+.cft .kuang{ width:130px; height:25px; border:1px solid #dedede;}
+.cft .btn a{ width:220px; margin:10px 0px 10px 0px;}
+
+
+
+.pay-style .wrap .card{ width:956px; height:auto;  padding-top:15px; _margin-top:-3px; box-shadow:0 2px 4px rgba(0,0,0,0.2);}
+.pay-style .wrap .card-red{ border:2px solid #ff6600; background-color:#fffbec;}
+.pay-style .wrap .card-blue{ border:2px solid #97adba; background-color:#f5f7fc;}
+.pay-style .wrap .card ul{ height:60px; padding-left:25px;}
+.pay-style .wrap .card ul.m-t{ margin-top:25px;}
+.pay-style .wrap .card ul.gt{ width:700px;  margin:20px 0px 12px 130px;}
+.pay-style .wrap .card ul li{ width:200px;}
+.pay-style .wrap .card .anniu{ width:156px; height:33px; display:block; background-color:#f9914c; color:#fff; line-height:30px;}
+.pay-style .wrap .card a.anniu:hover{ background-color:#ff6600; text-decoration:none;}
+
+.pay-style .wrap .card .icon{ background:url(http://cdnimg.dd373.com/Content/images/pay/pay_combo.png) no-repeat; width:130px; height:35px; border:1px solid #d4d7d7; background-color:#fff; margin-left:5px; }
+.pay-style .wrap .card .brank .brank-ny{ background-position:0px 0px; }
+.pay-style .wrap .card .brank-gs{ background-position:0px -2700px; }
+.pay-style .wrap .card .brank .brank-zs{ background-position:0px -1116px; }
+.pay-style .wrap .card .brank-js{ background-position:0px -828px; }
+.pay-style .wrap .card .brank .brank-zg{ background-position:0px -288px; }
+.pay-style .wrap .card .brank .brank-jt{ background-position:0px -1188px; }
+.pay-style .wrap .card .brank .brank-pf{ background-position:0px -4284px; }
+.pay-style .wrap .card .brank .brank-ms{ background-position:0px -1152px; }
+.pay-style .wrap .card .brank .brank-sz{ background-position:0px -4032px; }
+.pay-style .wrap .card .brank .brank-xy{ background-position:0px -1044px; }
+.pay-style .wrap .card .brank .brank-pa{ background-position:0px -4248px; }
+.pay-style .wrap .card .brank .brank-zx{ background-position:0px -1080px; }
+.pay-style .wrap .card .brank .brank-gd{ background-position:0px -972px; }
+.pay-style .wrap .card .brank .brank-gf{ background-position:0px -1836px; }
+.pay-style .wrap .card .brank .brank-bj{ background-position:0px -216px; }
+.pay-style .wrap .card .brank-yz{ background-position:0px -3708px; }
+.pay-style .wrap .card .brank .brank-sh{ background-position:0px -4140px; }
+.pay-style .wrap .card .brank .brank-dy{ background-position:0px -3708px; }
+.pay-style .wrap .card .brank-nj{ background-position:0px -3564px; }
+.pay-style .wrap .card .brank .brank-nb{ background-position:0px -3384px; }
+/*cft*/
+.pay-style .wrap .card ul.cft .jine{ width:430px; height:40px;}
+.pay-style .wrap .card ul.cft .wz{ font-size:14px; font-weight:bold; line-height:28px;}
+.pay-style .wrap .card ul.cft .kuang{ width:150px; height:30px; border:1px solid #ccc;}
+.pay-style .wrap .card ul.cft .cft-icon{ background:url(http://cdnimg.dd373.com/Content/images/pay/cft.jpg) no-repeat; width:137px; height:32px; margin-left:10px;}
+.pay-style .wrap .card ul.cft li.m-l{ margin-left:20px;}
+/*guitai*/
+.pay-style .wrap .card .guitai{ width:700px; height:80px; border-bottom:1px dashed #ddd; margin:15px auto 0px auto;}
+.pay-style .wrap .card .guitai .danxuan{ padding-top:24px;}
+.pay-style .wrap .card .guitai .icon{ margin:12px 0px 0px 10px;}
+.pay-style .wrap .card .guitai .text{ margin-left:20px;}
+.pay-style .wrap .card .guitai .text p{ line-height:24px;}
+/*ThirdParty*/
+.pay-style .wrap .card .ThirdParty{ width:500px; height:100px;margin:100px 152px 0px 152px;}
+.pay-style .wrap .card .ThirdParty .ImgContent{ margin-right:30px;position:relative;}
+.pay-style .wrap .card .ThirdParty .Chargeimg{ border:1px solid #dedede}
+.pay-style .wrap .card .ThirdParty .current{ border:2px solid #ff6600;}
+.pay-style .wrap .card .ThirdParty .gou{ position: absolute; top: 29px; left: 113px;}
+.pay-style .wrap .card .beizhuinfo{border:1px solid #feb756;border-radius:7px; color: #f60;font-size: 13px;height: 21px; line-height: 21px;padding: 0 5px 0 5px;background: #fffde6 none repeat scroll 0 0;}
+/*ThirdParty*/
+.chong-r .title .card .ThirdParty{ width:500px; height:100px;margin:100px auto 0px auto;}
+.chong-r .title .card .ThirdParty .ImgContent{ margin-right:30px;position:relative;}
+.chong-r .title .card .ThirdParty .Chargeimg{ border:1px solid #dedede}
+.chong-r .title .card .ThirdParty .current{ border:2px solid #ff6600;}
+.chong-r .title .card .ThirdParty .gou{ position: absolute; top: 29px; left: 113px;}
+/*Weixin*/
+.chong-r .cft .cztips .wechatlayout {float:left;margin:4px 0 0 10px;}
+.chong-r .cft .cztips .wechatlayout .beizhuinfo{border:1px solid #f7e5b3;font-size:13px; border-color:#feb756;border-image:none;border-style: solid;border-width: 1px 0;color: #f60;float: left;height: 21px;line-height: 21px;padding: 0 13px 0 3px;}
+.chong-r .cft .cztips .wechatlayout .leftborder {width:6px;background-repeat: no-repeat;float: left;height: 23px;background:rgba(0, 0, 0, 0) url('http://cdnimg.dd373.com/file/general/images/chargeborder.png') repeat-x scroll 0 0}
+.chong-r .cft .cztips .wechatlayout .rightborder {background:rgba(0, 0, 0, 0) url('http://cdnimg.dd373.com/file/general/images/chargeborder.png') repeat-x scroll 0 0;background-position:-5px 0;width: 3px; background-repeat: no-repeat;float: left;height: 23px;}
+.chong-r .wrap2 .nering .wexinbeizhu{ margin-left:78px;border:1px solid #feb756;border-radius:7px; color: #f60; float: left;  font-size: 13px;height: 21px; line-height: 21px;padding: 0 5px 0 5px;background: #fffde6 none repeat scroll 0 0;}
+.chong-r .wrap2 .nering .wexinbeizhu{ margin-left:78px;border:1px solid #feb756;border-radius:7px; color: #f60; float: left;  font-size: 13px;height: 21px; line-height: 21px;padding: 0 5px 0 5px;background: #fffde6 none repeat scroll 0 0;}
+
+/*02*/
+.pay-message .zhifu{ width:900px; margin:12px 0px 15px 0px;}
+.pay-message .zhifu .wrap{ width:500px; height:40px;}
+.pay-message .zhifu .wrap .wz{ font-size:14px; font-weight:bold; color:#4d4d4d; line-height:30px;}
+.pay-message .zhifu .wrap .kuang{ width:200px; height:33px; font-size:16px; text-indent:0.5em; font-family:"微软雅黑"; color:#333;}
+.pay-message .zhifu .wrap a{ color:#3485bc; margin-left:5px;}
+.pay-message .zhifu .btn{ margin:15px 0px 0px 160px;}
+
+
+/*03*/
+
+.fukuan{ width:954px; height:350px; border:3px solid #f89201; background-color:#fdfaf8; padding-top:40px; margin-top:15px;}
+.fukuan .fangshi, .fukuan .quan{ width:830px; height:50px; border-bottom:1px dotted #c8c6c4; padding-left:120px;}
+.fukuan .fangshi p{ line-height:20px;}
+.fukuan .fs{ width:110px; height:40px;  line-height:35px; text-align:right; margin-right:20px;}
+.fukuan .zh{ width:250px; height:40px;  line-height:36px;}
+.fukuan .zf{ width:200px; height:40px; line-height:30px;}
+.fukuan .quan .quan-l{ width:188px; text-align:right;}
+.fukuan .quan .quan-r{ width:366px; text-align:right;}
+.fukuan .brank{  width:830px; height:50px; padding-top:10px; border-bottom:1px dotted #c8c6c4; padding-left:120px; }
+.fukuan .brank .sort{ background:url(http://cdnimg.dd373.com/Content/images/pay/pay_combo.png) no-repeat 0 -2700px; width:130px; height:35px; margin-right:5px; border:1px solid #ccc; text-indent:15em;}
+.fukuan .brank .ka{ margin-left:10px; line-height:35px;}
+.fukuan .mima{ width:830px; height:40px; padding-left:120px; margin-top:10px;}
+.fukuan .mima .kuang{ width:200px; height:30px; margin-top:3px;}
+.fukuan .anniu{  width:830px; height:70px; padding-top:10px; padding-left:120px; }
+.fukuan .anniu .tip{ margin-top:10px;}
+.fukuan .anniu .tip a{ color:#0088CC;}
+.fukuan .zf .wxsxfinfo{border: 1px solid #feb756; border-radius: 7px; color: #f60; font-size: 13px; height: 21px; line-height: 21px; padding: 0 5px 0 5px; background: #fffde6 none repeat scroll 0 0;}
+
+
+.pay-faqbox{width: 950px; margin:0 auto; padding-top:20px;}
+.pay-faqbox h3{ color:#333333; font-size: 14px; margin-bottom: 20px;}
+	
+.pay-faqbox dl {color: #666666; padding-bottom: 0; padding-left: 15px; padding-right: 30px; padding-top: 0;}
+
+.pay-faqbox dl dt {font-weight: bold; margin-bottom: 5px;}
+
+
+.pay-faqbox dl dd {line-height: 18px; margin-bottom: 20px;}
